@@ -1,0 +1,122 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    flex: 1;
+}
+/* Navbar styling , fixing the navbar to move as scroll*/
+.navbar{
+    height: 5rem;
+    background: white;
+}
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.nav-link{
+    color: #222222 !important;
+}
+/* styling for footer section */
+.f-info-links{
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-links:hover{
+    text-decoration: underline;
+}
+.f-info-links , .f-info-socials ,.f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials i{
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+.footer_info{
+    text-align: center;
+    display: flex;
+    height: 8rem;
+    background: #ebebeb;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+/* styling for cards in index.ejs file  */
+.listing-card{
+    border: none !important;
+    margin-bottom: 1.5rem !important;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+}
+.card-text p{
+    font-weight: 400;
+}
+.listing-link{
+    text-decoration: none;
+}
+/* card effect */
+
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background: white;
+}
+
+.add-btn{
+    background-color: #fe424d !important;
+    color: white !important;
+    border: none;
+}
+
+/* show page */
+
+.show-img{
+    height: 50vh;
+}
+
+.btns {
+    display: flex;
+    padding: 1rem 0;
+}
+
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/* edit page edit.ejs styling*/
+
+.Preview-image {
+    width: 250px;       /* Set the width you want */
+    height: auto;       /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners (optional) */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft shadow (optional) */
+    display: block;     /* Removes inline spacing issues */
+    margin-top: 0.5rem; /* Adds some spacing below text */
+}
+
+/* Maps Styling */
+#map { 
+    height: 300px; 
+    width: 90vh;
+    margin-left: 20px;
+}
+
+/* index page in tax-info  */
